@@ -136,7 +136,7 @@ void setup_app(void)
 	g_lorawan_settings.public_network = true;						// Flag for public or private network
 	g_lorawan_settings.duty_cycle_enabled = false;					// Flag to enable duty cycle (validity depends on Region)
 	g_lorawan_settings.join_trials = 5;								// Number of join retries
-	g_lorawan_settings.tx_power = 0;								// TX power 0 .. 15 (validity depends on Region)
+	g_lorawan_settings.tx_power = 10;								// TX power 0 .. 15 (validity depends on Region)
 	g_lorawan_settings.data_rate = 3;								// Data rate 0 .. 15 (validity depends on Region)
 	g_lorawan_settings.lora_class = 0;								// LoRaWAN class 0: A, 2: C, 1: B is not supported
 	g_lorawan_settings.subband_channels = 1;						// Subband channel selection 1 .. 9
